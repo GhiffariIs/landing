@@ -97,3 +97,78 @@ header nav > div a {
     color: var(--color-muted);
     font-size: 0.95rem;
 }
+
+/* 12. Hero */
+#hero {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 13. Hero intro */
+#hero > p:first-child {
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/* 14. Hero heading */
+#hero h1 {
+    max-width: 900px;
+    margin-bottom: 20px;
+    font-size: clamp(3rem, 7vw, 6rem);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/* 15. Hero subtitle */
+#hero h2 {
+    margin-bottom: 20px;
+    color: var(--color-text);
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-weight: 500;
+}
+
+/* 16. Hero description */
+#hero h2 + p {
+    max-width: 560px;
+    margin-bottom: 32px;
+    font-size: 1.05rem;
+}
+
+/* 17. Hero actions */
+#hero > div {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* 18. Primary button */
+#hero > div a:first-child {
+    padding: 12px 20px;
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    font-weight: 600;
+    border: 2px solid var(--color-primary);
+}
+
+/* 19. Secondary button */
+#hero > div a:last-child {
+    padding: 12px 20px;
+    color: var(--color-text);
+    font-weight: 600;
+    border: 2px solid var(--color-border);
+}
+
+/* 20. Button hover */
+#hero > div a:first-child:hover {
+    background-color: var(--color-highlight);
+    border-color: var(--color-highlight);
+    color: var(--color-text);
+}
+
+#hero > div a:last-child:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
