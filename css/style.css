@@ -316,3 +316,56 @@ header nav > div a {
 .design-item:hover img {
     transform: scale(1.03);
 }
+
+/* 37. Contact */
+#contact {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+/* 38. Contact content */
+.contact-content {
+    max-width: 760px;
+}
+
+/* 39. Contact label */
+.contact-content > p:first-child {
+    margin-bottom: 12px;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+/* 40. Contact heading */
+.contact-content h2 {
+    margin-bottom: 20px;
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    letter-spacing: -0.04em;
+}
+
+/* 41. Contact description */
+.contact-content h2 + p {
+    max-width: 520px;
+    margin-bottom: 32px;
+    font-size: 1.1rem;
+}
+
+/* 42. Contact button */
+.contact-content > a {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+
+    color: var(--color-background);
+    font-weight: 600;
+}
+
+/* 43. Contact button hover */
+.contact-content > a:hover {
+    background-color: var(--color-highlight);
+    border-color: var(--color-highlight);
+    color: var(--color-text);
+}
