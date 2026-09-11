@@ -37,3 +37,33 @@ h3 {
     margin-top: 0;
     line-height: 1.2;
 }
+
+/* 5. Container */
+header nav,
+main > section,
+footer {
+    width: min(1120px, 90%);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 6. Section spacing */
+main > section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+/* 7. Links */
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-highlight);
+}
+
+/* 8. Paragraph */
+p {
+    color: var(--color-muted);
+}
