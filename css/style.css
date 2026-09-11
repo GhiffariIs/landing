@@ -276,3 +276,43 @@ header nav > div a {
     border-color: var(--color-highlight);
     color: var(--color-text);
 }
+
+/* 31. Design gallery */
+.design-gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+/* 32. Large design item */
+.design-item-large {
+    grid-row: span 2;
+}
+
+/* 33. Design item */
+.design-item {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* 34. Design image */
+.design-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 35. Design border */
+.design-item {
+    border: 1px solid var(--color-border);
+}
+
+/* 36. Design hover */
+.design-item img {
+    transition: transform 0.3s ease;
+}
+
+.design-item:hover img {
+    transform: scale(1.03);
+}
