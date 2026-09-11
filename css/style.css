@@ -1,0 +1,39 @@
+/* 1. Basic reset */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+/* 2. Design tokens */
+:root {
+    --color-primary: #00A2E9;
+    --color-highlight: #FFB703;
+
+    --color-background: #FEFEFE;
+    --color-text: #111827;
+    --color-muted: #64748B;
+    --color-border: #E2E8F0;
+}
+
+/* 3. Typography */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 4. Headings */
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    line-height: 1.2;
+}
