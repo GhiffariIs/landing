@@ -370,6 +370,28 @@ header nav > div a {
     color: var(--color-text);
 }
 
+/* 44. Menu toggle */
+.menu-toggle {
+    display: none;
+
+    padding: 8px 12px;
+
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+
+    color: var(--color-text);
+
+    font-size: 1.25rem;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.menu-toggle:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+
 @media (max-width: 768px) {
 
     header nav,
@@ -420,4 +442,17 @@ header nav > div a {
     .contact-content h2 {
         font-size: 3rem;
     }
+
+    header nav {
+        gap: 16px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav > div {
+        display: none;
+    }
+    
 }
