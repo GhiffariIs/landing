@@ -453,6 +453,11 @@ header nav > div a {
 
     header nav > div {
         display: none;
+        flex-direction: column;
+        gap: 16px;
     }
     
+    header nav > div.active {
+        display: flex;
+    }
 }
